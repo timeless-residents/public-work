@@ -1,0 +1,26 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#f0f0f0"/>
+    
+    <!-- 大きな地域 (IN) -->
+    <path d="M100 100 L300 100 L400 200 L300 300 L100 300 Z" fill="#e6f3ff" stroke="#666"/>
+    <text x="200" y="200" text-anchor="middle" font-size="24">Japan</text>
+    <text x="200" y="230" text-anchor="middle" font-size="20" fill="#0066cc">in Japan</text>
+    
+    <!-- 通り・道路 (ON) -->
+    <line x1="450" y1="100" x2="700" y2="100" stroke="#333" stroke-width="20"/>
+    <text x="575" y="80" text-anchor="middle" font-size="20">Main Street</text>
+    <text x="575" y="140" text-anchor="middle" font-size="20" fill="#006600">on Main Street</text>
+    
+    <!-- 特定の地点 (AT) -->
+    <circle cx="200" cy="450" r="10" fill="#ff6666"/>
+    <text x="200" y="500" text-anchor="middle" font-size="20">Tokyo Station</text>
+    <text x="200" y="530" text-anchor="middle" font-size="20" fill="#cc0000">at Tokyo Station</text>
+    
+    <!-- 凡例 -->
+    <rect x="500" y="400" width="250" height="150" fill="white" stroke="#666"/>
+    <text x="520" y="430" font-size="18">使い分けのポイント:</text>
+    <text x="520" y="460" font-size="16">IN: 広い地域・空間の中</text>
+    <text x="520" y="490" font-size="16">ON: 表面・線上の位置</text>
+    <text x="520" y="520" font-size="16">AT: 特定の地点・場所</text>
+</svg>
