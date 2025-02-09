@@ -1,0 +1,65 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="400" fill="#e3f2fd"/>
+  
+  <!-- 装飾的な水の波紋 -->
+  <path d="M0 350 Q 200 300 400 350 Q 600 400 800 350" fill="#bbdefb" />
+  <path d="M0 370 Q 200 320 400 370 Q 600 420 800 370" fill="#90caf9" />
+  
+  <!-- メインタイトル -->
+  <g transform="translate(400 130)">
+    <text x="0" y="0" 
+          font-family="sans-serif" 
+          font-size="64" 
+          font-weight="bold" 
+          text-anchor="middle" 
+          fill="#1565c0">
+      ザリガニ釣り大会
+    </text>
+  </g>
+
+  <!-- ザリガニのイラスト -->
+  <g transform="translate(150 200)">
+    <path d="M40 0 Q 60 -20 80 0 Q 100 20 120 0" 
+          stroke="#d32f2f" 
+          stroke-width="8" 
+          fill="none"/>
+    <circle cx="50" cy="0" r="20" fill="#ef5350"/>
+    <circle cx="110" cy="0" r="20" fill="#ef5350"/>
+    <!-- はさみと足 -->
+    <path d="M30 10 L 10 30 M40 15 L 20 40 M60 15 L 40 40" 
+          stroke="#d32f2f" 
+          stroke-width="4" 
+          fill="none"/>
+  </g>
+
+  <!-- 日時・場所情報 -->
+  <g transform="translate(400 250)">
+    <text x="0" y="0" 
+          font-family="sans-serif" 
+          font-size="32" 
+          text-anchor="middle" 
+          fill="#1976d2">
+      8月20日（日）午前10時～
+    </text>
+    <text x="0" y="50" 
+          font-family="sans-serif" 
+          font-size="32" 
+          text-anchor="middle" 
+          fill="#1976d2">
+      市民公園 池のほとり
+    </text>
+  </g>
+
+  <!-- 参加方法 -->
+  <g transform="translate(400 340)">
+    <text x="0" y="0" 
+          font-family="sans-serif" 
+          font-size="24" 
+          text-anchor="middle" 
+          fill="#0d47a1">
+      参加費無料・当日受付
+    </text>
+  </g>
+
+</svg>
